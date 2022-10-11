@@ -1,0 +1,564 @@
+
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Lobster+Two&display=swap" rel="stylesheet">
+		<style>
+			@media only screen and (max-width:1300px){
+				html,body{
+						width:100%;
+						height:100%;
+						margin:0;
+						padding:0;
+						overflow-x:hidden;
+					}
+				}
+			body{
+				height:100%;
+				background:white;
+				padding:0px;
+				margin:0 auto;
+				font-family: 'Creepster', cursive;
+				font-family: 'Lobster Two', cursive;
+				width:100%;
+				height:auto;
+				width:auto;
+}
+			.new h1{
+				color:#FAA77D;
+				}
+			p,h1{
+				color:black;
+				}	
+			h2{
+				color:black;
+				}
+			.underarea{
+				color:black;
+				text-align:center;
+				font-style:oblique;
+				text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+				height:600px;
+				}
+			#jotarea{
+					  text-shadow: 0 0 5px #FF00ff;
+
+					}
+			#doxarea{
+					width:1300px;
+					height:700px;	
+					float:left;
+					transition: transform .2s;
+				} 
+			.dox1area:hover{
+					color:white;
+   					transform: scale(1.3);
+				}
+				.dox1area{
+					width:200px;
+					height:300px;	
+					float:left;
+					padding:5px;
+					}
+				.dox1area img{
+					width:150px;
+					height:200px;	
+					float:left;
+					padding:50px;
+					box-shadow: 10px 16px 20px -5px rgba(0,0,0,0.75);
+					}		
+			#boxarea{
+					width:1300px;
+					height:400px;	
+					float:left;
+					transition: transform .2s;
+				}
+			.box1area:hover{
+					color:white;
+   					transform: scale(1.3);
+				}
+				.box1area{
+					width:400px;
+					height:300px;	
+					float:left;
+					padding:5px;
+					}
+				.box1area img{
+					width:3500px;
+					height:200px;	
+					float:left;
+					padding:50px;
+					box-shadow: 10px 16px 20px -5px rgba(0,0,0,0.75);
+					}				
+			#menuarea{
+				background:pink;
+				width:1300px;
+				height:50px;
+				border:none;
+				position:sticky;
+				z-index:1000;
+				top:0;
+				}
+			#menuarea ul{
+					/*list-style-type:none;
+					list-style-image:url('arr.png');
+					list-style-position:inside;*/
+					list-style:none url('arr.png') inside;
+					margin:0;
+					padding:0;
+					list-style:none;
+					}
+			#menuarea ul li{
+					float:left;
+						}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color:black;
+					background:pink;
+					padding:10px 25px;
+					text-decoration:none;
+					display:block;
+					}
+			#menuarea ul li a:hover{
+					color:black;
+					background:pink;
+					}
+			#menuarea ul li:last-child a:link, #menuarea ul li:last-child a:visited{
+					border-bottom:none;
+					}
+			#menuarea ul li ul{
+					display:none;
+					}
+			#menuarea ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:1000;
+					}
+			#menuarea ul li:hover ul li{
+					float:none;
+					}
+			#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+					border:none;
+					border-bottom:solid 1px blue;
+					}
+			#jotarea{
+					text-shadow: 0 0 5px #FF00ff;
+
+					}
+
+			.boardarea img{
+					height:300px;
+					width:200px;
+					opacity:1;
+					border:2px solid black;
+					}
+
+			.boardarea img:hover {
+ 					opacity: 0.5;
+					}
+			.main{	
+				height:4500px;
+				width:1300px;
+				}
+			.toparea{
+					height:3500px;
+					width:1300px;
+				}
+			.board{
+					width:1300px;
+					height:500px;
+				}
+			.boardarea{
+					width:250px;
+					height:400px;
+					float:left;
+				}
+			.boardar{
+					width:1050px;
+					height:400px;
+					float:left;
+				}
+			
+			.footer2{
+				background:#161616;
+				color:#d3d3d3;
+				height:450px;
+				position:relative;
+				width:1300px;
+				top:3500px;
+				}
+			.footer2 .footer-content {
+				height:350px;
+				display:flex;
+				padding:10px 10px;
+				position:absolute;
+				}
+			.footer2 .footer-content .footer-section{
+				flex:1;
+				padding:25px;
+				}
+			.footer2 .footer-content h1,
+			.footer2 .footer-contenth2 {
+				color:white;
+				}
+			
+			.footer2 .footer-content .about h1 span{
+				color:#05f7ff;
+				}			
+			.footer2 .footer-content .about .contact  span{
+				display:block;s
+				font-size:1.1em;
+				margin-bottom:8px;
+				}			
+			.footer2 .footer-content .about .socials a{
+				border:1px solid grey;
+				width:45px;
+				height:41px;
+				padding-top:5px;
+				margin-right:5px;
+				text-align:center;
+				display:inline-block;
+				font-size:3.1em;
+				border-radius:5px;
+				transition:all .3s;
+				}			
+			.footer2 .footer-content .about .socials a:hover{
+				border:1px solid white;
+				color:white;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .links ul a{
+				display:block;
+				margin-bottom:10px;
+				font-size:1.2em;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .links ul a:hover{
+				color:white;
+				margin-left:15px;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .contact-form .contact-input{
+				background:#272727;
+				color:#bebdbd;
+				margin-bottom:10px;
+				line-height:1.5rem;
+				padding:0.9rem 1.4rem;
+				border:none;
+				}
+			.footer2 .footer-content .contact-form .contact-input:focus{
+				background:#lalala;
+				}
+			.btn{
+				padding:.5rem 1rem;
+				background:#006669;
+				color:white;
+				border:1px white transparent;
+				border-radius:.25rem;
+				}
+			.btn big{
+				padding:.7rem 1.3rem;
+				line-height:1.3rem; 
+				}
+			.btn:hover{
+				color:white;
+				background:#005255;
+				}
+			.footer2 .footer-content .contact-form .contact-btn{
+				float:right;
+				}
+			.footer2 .footer-bottom {
+				background:#343a40;
+				color:#686868;
+				height:50px;
+				width:100%;
+				text-align:center;
+				position:absolute;
+				bottom:0px;
+				left:0px;
+				padding-top:20px;
+				}
+			.fa {
+ 				padding: 20px;
+				font-size: 30px;
+  				width: 50px;
+  				text-align: center;
+ 				text-decoration: none;
+  				margin: 5px 2px;
+				}
+
+			.fa:hover {
+    				opacity: 0.7;
+				}
+
+			.fa-facebook {
+  				background: #3B5998;
+  				color: white;
+				}
+			.fa-youtube {
+  				background: #bb0000;
+  				color: white;
+				}
+
+			.fa-instagram {
+ 				 background:red;
+ 				 color: white;
+				}
+			.button {
+  				background-color: #4CAF50;
+  				border:clack;
+  				color: white;
+  				padding: 20px;
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+  				font-size: 16px;
+  				margin: 4px 2px;
+  				cursor: pointer;
+				}
+			.button1 {
+				border-radius: 12px;
+				}
+		</style>
+	</head>
+
+
+	<body>
+		<div id="jotarea">
+			<h1 align="center"><font color="#327FDB">Books<font><font color="#32AB62">Essentially</font></h1>
+		</div>
+		<div id="menuarea">
+			<table cellspacing="0" border="1px" width="100%" height="100%" valign="top">
+					<tr>
+						<td>
+							<ul>
+							<li><a href="categoriess.html">CATEGORIES</a>
+							<ul>
+								<li><a href="#">fiction </a></li>
+								<li><a href="#">suspense & thriller</a></li>
+								<li><a href="#">mystery & detect</a></li>
+								<li><a href="#">romance</a></li>
+								<li><a href="#">biography & memoir</a></li>
+								<li><a href="#">children's collection</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="magazine/news&f.html">BOOK REVIEW</a>
+							<ul>
+								<li><a href="#">profile </a></li>
+								<li><a href="#">perspectives</a></li>
+								<li><a href="#">awards</a></li>
+								<li><a href="#">in the news</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="authors.html">AUTHORS</a>
+							<ul>
+								<li><a href="#">Stephen King </a></li>
+								<li><a href="#">Ernest Hemingway</a></li>
+								<li><a href="#">Charles Dickens</a></li>
+								<li><a href="#">J.K. Rowling </a></li>
+								<li><a href="#">William Shakespeare</a></li>
+								<li><a href="#">Agatha Christie</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="magazine/more.html">MORE</a>
+							<ul>
+								<li><a href="#">browse talent</a></li>
+								<li><a href="#">discover content</a></li>
+								<li><a href="#">browse collection</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						
+						<td>
+							<ul>	
+							<li><a href="magazine/magazine.html">MAGAZINES</a>
+							<ul>
+								<li><a href="#">current issue </a></li>
+								<li><a href="#">special issue</a></li>
+								<li><a href="#">all issue</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+					</tr>
+					</table>
+		</div>
+		<div class="new">
+		 	<h1 align="center">SOME BESTSELLERS OF THE YEAR</h1>
+		</div>
+<div class="main">
+	<div class="toparea">
+		<div class="board">
+		<div class="boardarea">
+					<img src="bst1.webp"/>
+						</div>
+					<div class="boardar">
+						<h1 align="top">1) It Ends with Us</h1>
+						<h2>by Colleen Hoover</h2>
+						<p><b>Quick Summary:</b>In this “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it” (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects, a workaholic with a too-good-to-be-true romance can’t stop thinking about her first love.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+					<img src="bst2.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>2) Kingdom of the Feared (B&N Exclusive Edition)</h1>
+						<h2>by Kerri Maniscalco</h2>
+						<p><b>Quick Summary:</b> This Barnes & Noble Exclusive Edition contains a spicy bonus chapter from Envy’s POV and features a unique cover!
+
+From the #1 New York Times bestselling author of the Stalking Jack the Ripper series comes the steamy conclusion to Kingdom of the Wicked trilogy.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst3.webp"/>
+				</div>
+					<div class="boardar">
+						<h1>3) It Starts with Us: A Novel</h1>
+						<h2>by Colleen Hoover</h2>
+						<p><b>Quick Summary:</b> Before It Ends with Us, it started with Atlas. Colleen Hoover tells fan favorite Atlas’s side of the story and shares what comes next in this long-anticipated sequel to the “glorious and touching” (USA TODAY) #1 New York Times bestseller It Ends with Us.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst4.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>4) The Seven Husbands of Evelyn Hugo: A Novel</h1>
+						<h2>by Taylor Jenkins Reid</h2>
+						<p><b>Quick Summary:</b> From the New York Times bestselling author of Daisy Jones & the Six—an entrancing and “wildly addictive journey of a reclusive Hollywood starlet” (PopSugar) as she reflects on her relentless rise to the top and the risks she took, the loves she lost, and the long-held secrets the public could never imagine.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst5.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>5) The Ballad of Never After (Signed B&N Exclusive Book)</h1>
+						<h2>by Stephanie Garber</h2>
+						<p><b>Quick Summary:</b> This Barnes & Noble Exclusive Edition is signed by Stephanie Garber, includes a bonus chapter from Jacks' POV, and has a unique cover and case stamp!
+
+The fiercely-anticipated sequel to the #1 New York Times bestseller Once Upon a Broken Heart, starring Evangeline Fox and the Prince of Hearts on a new journey of magic, mystery, and heartbreak.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst6.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>6) Book Lovers</h1>
+						<h2>by Emily Henry</h2>
+						<p><b>Quick Summary:</b>Books, reading, book lovers and tsundoku are all words that send our hearts a flutter. Consider this your most swoon-worthy read of the summer! Mwah!</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst7.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>7) Verity</h1>
+						<h2>by Colleen Hoover</h2>
+						<p><b>Quick Summary:</b> New York Times Bestseller
+USA Today Bestseller
+The Globe and Mail Bestseller
+Publishers Weekly Bestseller
+
+Whose truth is the lie? Stay up all night reading the sensational psychological thriller that has readers obsessed, from the #1 New York Times bestselling author of It Ends With Us.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst8.webp"/>
+				</div>
+					<div class="boardar">
+						<h1>8) Heartstopper, Volume 1</h1>
+						<h2>by Alice Oseman</h2>
+						<p><b>Quick Summary:</b> This heartwarming graphic novel navigates the tricky world of budding romance. The teenage awkwardness of Charlie and Nick as they slowly fall in love will warm even the coldest of hearts. Alice Oseman stops our hearts with this adorable romance!
+
+Boy meets boy. Boys become friends. Boys fall in love. A sweet and charming coming-of-age story that explores friendship, love, and coming out. This edition features beautiful two-color artwork.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst9.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>9) Run, Rose, Run</h1>
+						<h2>by Dolly Parton and James Patterson, Dolly Parton, James Patterson</h2>
+						<p><b>Quick Summary:</b> From America’s most beloved superstar and its greatest storyteller—a thriller about a young singer-songwriter on the rise and on the run, and determined to do whatever it takes to survive.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		<div class="board">
+		<div class="boardarea">
+				<img src="bst10.webp"/>
+					</div>
+					<div class="boardar">
+						<h1>10) Reminders of Him</h1>
+						<h2>by Colleen Hoover</h2>
+						<p><b>Quick Summary:</b> This is, without a doubt, my favorite work of Hoover. Hoover takes us on an emotional roller coaster, depicting the grief and loneliness that comes with the loss of a loved one in a way that only Hoover can do. Kenna’s desperation to reclaim her life and daughter after the untimely death of her boyfriend is a redemption story that left me crying on more than one occasion.
+
+A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story from #1 New York Times bestselling author Colleen Hoover.</p>
+						<button class="button button1">BUY NOW</button>
+		</div>
+		</div>
+		<div class="footer2">
+			<div class="footer-content">
+				<div class="footer-section about">
+					<h1 class="logo-text"><span>Books</span>Essentially</h1>
+					<p><font color="white">BooksEssentially Collections helps librarians build and continually update collections curated with both literary merit and inclusive content in mind.</font></p>
+				<div class="socials">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
+				<div class="contact">
+					<i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+					<i class="fa fa-envelope"></i> &nbsp; info@booksessentially.com</span>
+				</div>
+			</div>
+				<div class="footer-section links">
+					<h2>QUICK LINKS</h2>
+					<br>
+					<ul>
+						<a href="magazine/news&f.html"><li><font color="white">BOOK REVIEW</font></li></a>
+						<a href="magazine/magazine.html"><li><font color="white">MAGAZINE</font></li></a>
+						<a href="magazine/about.html"><li><font color="white">ABOUT US</font></li></a>
+						<a href="policy.html"><li><font color="white">PRIVACY POLICY</font></li></a>
+						<a href="categoriess.html"><li><font color="white">CATEGORIES</font></li></a>
+					</ul>
+				</div>
+				<div class="footer-section contact-form">
+					<h2>CONTACT US</h2>
+					<br>
+					<form action="index.html" method="post">
+						<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+						<textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+						<button type="submit" class="btn btn-big contact-btn">
+							<i class="fa fa-envelope"></i>
+							Send
+						</button>
+					</form>
+				</div>
+			</div>
+			
+				<div class="footer-bottom">
+					&copy; booksessentially.com | Designed by Ayushi Singh
+				</div>
+		</div>
+	</body>
+</html>
